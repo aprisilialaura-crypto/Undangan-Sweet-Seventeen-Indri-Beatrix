@@ -1,62 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Undangan Indri & Beatrix</title>
-
-  <style>
-    body {
-      margin: 0;
-      background: #dcefff;
-    }
-
-    .undangan {
-      position: relative;
-      width: 100%;
-      max-width: 700px;
-      margin: auto;
-    }
-
-    .undangan img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-    .nama {
-      position: absolute;
-      top: 28%;
-      left: 50%;
-      transform: translateX(-50%);
-      font-family: Georgia, serif;
-      font-size: clamp(18px, 5vw, 32px);
-      color: #5d75a5;
-      text-align: center;
-      white-space: nowrap;
-    }
-  </style>
+  <title>Test</title>
 </head>
 
-<body>
+<body style="text-align:center; padding:50px;">
 
-  <div class="undangan">
+  <h1>HALO BEB 💗</h1>
 
-    <img src="undangan.png">
-
-    <div class="nama" id="nama">Tamu Undangan</div>
-
-  </div>
-
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    const nama = params.get("to");
-
-    if (nama) {
-      document.getElementById("nama").textContent = nama;
-    }
-  </script>
+  <p>Website GitHub kita berhasil!</p>
 
 </body>
 </html>
